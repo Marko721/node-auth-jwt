@@ -9,9 +9,9 @@ module.exports.login_get = (req, res) => {
 };
 
 module.exports.signup_post = (req, res) => {
-  res.render("signup");
+  res.send("new signup");
 };
 
 module.exports.login_post = (req, res) => {
-  res.render("login");
+  res.send("user login");
 };
